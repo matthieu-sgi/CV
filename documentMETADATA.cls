@@ -482,7 +482,5 @@
 \hypersetup{pdfauthor   = Matthieu SEGUI,
             pdftitle    = CV français 2023,
             pdfsubject  = CV français pour postuler à un stage de 4 à 5 mois à partir du 1er Avril 2023,
-            pdfkeywords = {ESILV, DEVINCI, Ingénieur, Informatique, Électronique, Python, C\+\+, C\#, C, Shell, Linux},
-            pdfproducer = LuaTeX-1.15.0,
-            pdfcreator  = Overleaf}
-
+            pdfkeywords = {ESILV, DEVINCI, Ingénieur, Informatique, Électronique, Python, C\+\+, C\#, C, Shell, Linux}
+            }
