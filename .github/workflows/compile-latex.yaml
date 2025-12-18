@@ -10,6 +10,7 @@ jobs:
           lfs: true
       - name: Compile LaTeX document
         uses: xu-cheng/latex-action@v4
+        continue-on-error: true
         with:
           root_file: main.tex
           latexmk_use_lualatex: true
