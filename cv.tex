@@ -1,0 +1,53 @@
+% !TEX TS-program = luatex
+% USA STEM CV LaTeX Template
+%
+% Author:
+% Sabrina Benge
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{documentMETADATA}
+\name{Matthieu}{SEGUI}
+\tagline{Ingénieur DevOps\\Recherche CDI à partir d'août 2024}
+\photo{.15\linewidth}{Images/photo_cv.jpg}
+%\tagline{}
+
+\socialinfo{
+	
+
+	\smartphone{+(33) 7 68 88 83 99}
+	\email{matthieu2603@gmail.com}\\
+	\address{4, route des Postillons, 92310 Sèvres, France}\\
+    \linkedin{matthieu-segui}{SEGUI Matthieu}
+    \github{matthieu-sgi}
+	%\infos{}
+}
+
+\begin{document}
+
+	\makecvheader
+
+	\makecvfooter
+		{\textsc{}} %\selectlanguage{english}\today
+		{\textsc{}}
+		{}
+
+	%\input{section_headline}                % Research Statement
+	\input{formation.tex}			% formation
+    \input{projects.tex}
+	\input{section_experience}	        	% Section Professional Experience
+    \input{competences.tex}
+	%\input{section_skills}				    % Section Skills
+	%\input{section_languages}					% Section languaqes
+	
+	%\input{section_interets}				% Section interests
+	%\input{section_projects}                 % Section Projects
+	%\input{section_outreach_volunteering}   % Section Professional Outreach and volunteering
+	%\input{section_teaching_mentoring}      % Section Teaching and Mentoring
+	%\input{section_certifications}          % Section Certifications
+	%\input{section_references} 				% Section references
+	
+
+
+\end{document}
