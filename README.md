@@ -1,3 +1,8 @@
+to run docker 
+```sh
+docker run -v "$PWD":/workdir <name of container>
+```
+
 Table of Contents
 1. About
 2. Acknowledgements
