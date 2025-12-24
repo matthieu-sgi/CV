@@ -7,6 +7,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
+RUN luaotfload-tool -u
+
 WORKDIR /workdir
 # RUN mkdir -p /workdir/output
 
