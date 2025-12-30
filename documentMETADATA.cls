@@ -482,8 +482,8 @@
 \hypersetup{
   pdfinfo={
     Author   = Matthieu SEGUI,
-    Title    = CV français 2025,
-    Subject  = CV français pour postuler CDI,
-    Keywords = {Ingenieur, Informatique, DevOps, Adminsys, Shell, Linux, Reseaux, Electronique, Python, CI/CD, OpenSource}
+    Title    = English CV 2025,
+    Subject  = English CV,
+    Keywords = {Engineer, Computer Science, DevOps, SysAdmin, Shell, Linux, Networking, Electronics, Python, CI/CD, OpenSource}
     }
   }
