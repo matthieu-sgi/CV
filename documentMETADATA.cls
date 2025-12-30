@@ -387,7 +387,7 @@
   \textbf{#1}    & \textbf{#2 \textsc{#3} #4}   								\\*
   \textbf{#5}    & \begin{minipage}[t]{\rightcolumnlength}
   					         #6
-                   \end{minipage}										\\*
+                   \end{minipage}										\\* \vspace{0.1em}
                  & \footnotesize{\foreach \n in {#7}{\cvtag{\n}}} 	\\
   }
 
@@ -484,6 +484,6 @@
     Author   = Matthieu SEGUI,
     Title    = CV français 2025,
     Subject  = CV français pour postuler CDI,
-    Keywords = {Ingenieur, Informatique, DevOps, Adminsys, Shell, Linux, Reseaux, Électronique, Python}
+    Keywords = {Ingenieur, Informatique, DevOps, Adminsys, Shell, Linux, Reseaux, Electronique, Python, CI/CD, OpenSource}
     }
   }
